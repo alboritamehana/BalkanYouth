@@ -107,9 +107,9 @@ li > a {
   color: #242424;
 }
 
-em > a:hover,
 li > a:hover {
   color: #13b1cd;
+  background-color: #e7e7e7;
 }
 
 small {
@@ -151,7 +151,9 @@ a:focus, a:hover {
 a:focus {
   outline: none;
 }
-
+a.active {
+    background-color: #e7e7e7;
+}
 /*----------------------------------
   Selection
 ------------------------------------*/
@@ -172,6 +174,9 @@ a:focus {
   outline: none;
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 /*----------------------------------
   Button
 ------------------------------------*/
